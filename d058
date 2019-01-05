@@ -1,1 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
 
+int main()
+{
+double a;
+	
+	while((scanf("%lf",&a))!=EOF)
+	{
+    if(a>0){
+    	printf("1\n");
+	}
+	else if(a==0){
+		printf("0\n");
+	}else if(a<0){
+		printf("-1\n");
+	}
+	}
+return 0;
+}
+
+https://zerojudge.tw/ShowProblem?problemid=d058
