@@ -1,1 +1,19 @@
+#include<stdio.h>
+ 
+int main()
+{
+	int m;
+	while((scanf("%d",&m))!=EOF)
+	{
+		if(m>25)
+		printf("%d\n",85-m);
+		else
+		printf("%d\n",25-m);
+		
+	}
+ 
 
+return 0;
+}
+
+https://zerojudge.tw/ShowProblem?problemid=d060
