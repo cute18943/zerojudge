@@ -1,1 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<stdio.h>
+int main()
+{
+   double a=0;
+   while(scanf("%lf",&a)!=EOF){
+   	printf("|%.4lf|=%.4lf\n",a,fabs(a));
+   } 
+return 0;
+}
 
+https://zerojudge.tw/ShowProblem?problemid=d579
