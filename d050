@@ -1,1 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
 
+int main()
+{
+	int a;
+	
+	while((scanf("%d",&a))!=EOF)
+	{
+    if(a>=15){
+    printf("%d\n",a-15);	
+	}
+	
+	  else if (a<15)
+	printf("%d\n",a+9);
+	}	
+	
+return 0;
+}
+
+https://zerojudge.tw/ShowProblem?problemid=d050
