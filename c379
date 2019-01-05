@@ -1,1 +1,12 @@
+#include<stdio.h>  
+#include<stdlib.h>    
+int main(){ 
+   int a ; 
+ while( scanf("%d",&a)!=EOF ) { 
+ a=a/10*3;
+ printf("%d\n",a);
+} 
+return 0; 
+ }
 
+https://zerojudge.tw/ShowProblem?problemid=c379
