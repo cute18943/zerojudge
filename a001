@@ -6,3 +6,5 @@ while( scanf("%s",s)!=EOF ) {
  }
  return 0;
 }
+
+https://zerojudge.tw/ShowProblem?problemid=a001
