@@ -1,1 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
 
+int main(){
+	
+	int a;
+	int b=1911;
+	int c;
+	scanf("%d",&a);
+	c=a-b;
+	printf("%d",c);
+	
+	
+	
+	return 0;
+}
+
+https://zerojudge.tw/ShowProblem?problemid=d049
