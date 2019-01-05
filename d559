@@ -1,1 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
 
+int main()
+{
+char a[100];
+	
+	while((scanf("%s",&a))!=EOF)
+	{
+		
+		  printf("'C' can use printf(\"%%d\",n);");
+      	 printf(" to show integer like %s\n",a);
+		   
+		   }
+return 0;
+}
+
+https://zerojudge.tw/ShowProblem?problemid=d559
