@@ -1,1 +1,16 @@
+#include<stdio.h>   
+#include<stdlib.h>   
 
+int main(){   
+   int a;     
+ while( scanf("%d",&a)!=EOF ) {   
+   if(a>50)
+   printf("%d",a-1);
+   else
+   printf("%d",a);
+ 
+ }  
+return 0;  
+ }
+
+https://zerojudge.tw/ShowProblem?problemid=d068
