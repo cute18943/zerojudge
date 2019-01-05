@@ -1,1 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+int a,i;
+	
+	while((scanf("%d",&a))!=EOF)
+	{
+		
+      for(i=0;i<a;i++){
+      	 printf("I don't say swear words!\n");
+	  }
+      
 
+	}	
+	
+return 0;
+}
+
+https://zerojudge.tw/ShowProblem?problemid=d498
